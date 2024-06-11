@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>SCHOOL SYSTEM OPERATOR STUDENT INFORMATION</h1></center>
+    <script>
+        //document.write("<h1>Hi Java</h1>");
+        //document.write("<h1>Piney</h1>");
+        //document.write("<h1>Male</h1>");
+        //document.write("<h1>23</h1>");
+        //document.write("<h1>Prey Vang province</h1>");
+        //document.write("<h1>Cambodia</h1>");
+
+
+
+        //git add file into github
+
+
+        //input variable 
+
+        let id,name,age,sex,score1,score2,score3,total,school;
+        id = prompt("input id: ");
+        name = prompt("input name:");
+        age = prompt("input age: ")
+        sex = prompt("input sex: ");
+        score1 = parseFloat(prompt("input score1: "));
+        score2 = parseFloat(prompt("input score2: "));
+        score3 = parseFloat(prompt("input score3: "));
+        floatScore1 = parseFloat(score1);
+        floatScore2 = parseFloat(score2);
+        floatScore3 = parseFloat(score3);
+        totalScore = floatScore1+floatScore2+floatScore3;
+        alert("Total Score:" +totalScore);
+       //total = parseFloat(prompt("input total: "))
+        school = prompt("input school");
+        document.write(`<h1>STUDENT ID: ${id} </h1>`);
+        document.write(`<h1>STUDENT NAME: ${name}</h1>`);
+        document.write(`<h1>STUDENT AGE: ${age}</h1>`);
+        document.write(`<h1>STUDENT SEX: ${sex}</h1>`);
+        document.write(`<h1>STUDENT SCORE1: ${score1}</h1>`);
+        document.write(`<h1>STUDENT SCORE2: ${score2}</h1>`);
+        document.write(`<h1>STUDENT SCORE3: ${score3}</h1>`);
+        document.write(`<h1>STUDENT TOTAL: ${totalScore}</h1>`);
+       // document.write(`<h1>STUDENT TOTAL: ${total}</h1>`);
+        document.write(`<h1>STUDENT SCHOOL: ${school}</h1>`);
+        
+
+        
+
+
+
+
+        
+    </script>
+</body>
+</html>
