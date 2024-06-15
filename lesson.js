@@ -88,13 +88,19 @@
 //var score = Math.random()*100+1;
 //console.log(name,age,sex,score.toFixed(2));
 
-    let toatlScore = Math.random()*100+5;
-    if (toatlScore>=50){
-        console.log("Pasted Exam");
-    } else if (toatlScore<50){
-        console.log("Failed Exam");
-    }
-
-
+   //let toatlScore = Math.random()*100+5;
+   //if (toatlScore>=50){
+   //    console.log("Pasted Exam");
+   //} else if (toatlScore<50){
+   //    console.log("Failed Exam");
+   //}
+    // string function
+let stri1 = "Hello world";
+let stri2 = "hello js";
+let stri3 = "Hi js languages";
+console.log(stri1.indexOf("d"));
+console.log(stri1.charAt(10));
+//console.log(stri1.length());
+console.log(stri1.concat(stri2,stri3));
  
 
