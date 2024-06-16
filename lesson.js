@@ -1,8 +1,8 @@
 // control statement
 
-//let people1 = 25;
-//let people2 = 85;
-//if(people1 >=45){
+let people1 = 25;
+let people2 = 85;
+if(people1 >=45){
 //console.log("people year 10 - 50")
 //}
 //else if(people2 >60){
@@ -10,26 +10,26 @@
 
 //ternary operator
 
-//let Age = 25;
-//(Age>=18)?
+let Age = 25;
+(Age>=18)?
 //console.log("you can vote"):
 //console.log("you can't vote");
 
 //random
 
-//let Name = "Dare";
-//let Sex = "M";
-//let  Age = "25";
-//let score = Math.random()*100+1;
+let Name = "Dare";
+let Sex = "M";
+let  Age = "25";
+let score = Math.random()*100+1;
 //console.log(Name,Sex,Age,score.toFixed(2));
 
-//let total =Math.random()*100+5;
-//(total>=50)?
+let total =Math.random()*100+5;
+(total>=50)?
 //console.log("Pasted"):
 //console.log("failed");
 
-//function define 
-//function myNumber(){
+function define 
+function myNumber(){
 //  console.log("Meet you later!");
 //}
 
@@ -44,13 +44,13 @@
 
 //spreed operator
 //1. copy value in Array
-//let myArray = [20,"pase",true];
+let myArray = [20,"pase",true];
 //console.log(...myArray);
 
 //2. combine Array
-//let array1 = [1001,"Chandra","Male"];
-//let array2 = ["Bona", "TK"];
-//let result = [...array1,...array2];
+let array1 = [1001,"Chandra","Male"];
+let array2 = ["Bona", "TK"];
+let result = [...array1,...array2];
 //console.log(result);
 
 //3. passing argument
