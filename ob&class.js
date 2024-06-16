@@ -91,7 +91,28 @@
     {Name: "DARA",id: "1204",Sex: "M",Age: 25},
     {Name: "BOPHA",id: "1205",Sex: "F",Age: 17},
   ];
-  console.log(ArrayObject1.map((e)=>e));
-  console.log(ArrayObject1.filter((e)=> e.Age <=18 && e.Sex==="F"));
+  //console.log(ArrayObject1.map((e)=>e));
+  //console.log(ArrayObject1.filter((e)=> e.Age <=18 && e.Sex==="F"));
+
+    // method reduce 
+    let NumberArray = [50,60,100];
+    console.log(NumberArray.reduce((p,c)=>p+c));
+    // method sort
+    var myNumber = [20,12,25,10,35];
+   console.log(...myNumber.sort());
+    var dayName = ["c", "a", "d", "b", "e"];
+    console.log(dayName.sort());
+
+    function compare (a,b){
+        if (a > b){
+            return 1;
+        } else if (a < b){
+            return -1;
+        } else{
+            return 0;
+        }
+    }
+    console.log(dayName.sort(compare));
+    console.log(myNumber.sort(compare));
 
    
