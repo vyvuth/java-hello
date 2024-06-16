@@ -99,53 +99,53 @@
     // string function
 
 
-let stri1 = "Hello world";
-let stri2 = "hello js";
-let stri3 = "Hi js languages";
-console.log(stri1.indexOf("d"));
-console.log(stri1.charAt(10));
-console.log(stri1.length());
-console.log(stri1.concat(stri2,stri3));
-console.log(stri3.toLocaleUpperCase());
-console.log(stri3.toLocaleLowerCase());
-console.log(stri3.split("Hi"));
-console.log(stri1.charCodeAt(0));
-console.log(stri3.search("l"));
-console.log(stri1.slice(0,7));
+//let stri1 = "Hello world";
+//let stri2 = "hello js";
+//let stri3 = "Hi js languages";
+//console.log(stri1.indexOf("d"));
+//console.log(stri1.charAt(10));
+//console.log(stri1.length());
+//console.log(stri1.concat(stri2,stri3));
+//console.log(stri3.toLocaleUpperCase());
+//console.log(stri3.toLocaleLowerCase());
+//console.log(stri3.split("Hi"));
+//console.log(stri1.charCodeAt(0));
+//console.log(stri3.search("l"));
+//console.log(stri1.slice(0,7));
 
         //method
 
-let fruit = ["apple","orange","pineapple"];
-console.log(...fruit);
-  //loop
- for(i=0;i<fruit.length;i++){
-   console.log(fruit[i]);
- }
-
- i=0;
- while(i<fruit.length){
-   console.log(fruit[i]);
-   i++;
- }
-
- i=0;
- do{
-  console.log(fruit[i]); i++;
- } while(i>fruit.length);
+//let fruit = ["apple","orange","pineapple"];
+//console.log(...fruit);
+//  //loop
+// for(i=0;i<fruit.length;i++){
+//   console.log(fruit[i]);
+// }
+//
+// i=0;
+// while(i<fruit.length){
+//   console.log(fruit[i]);
+//   i++;
+// }
+//
+// i=0;
+// do{
+//  console.log(fruit[i]); i++;
+// } while(i>fruit.length);
 
     // for in  
-for (index in fruit){
-  console.log(fruit[index]);
-}
+//for (index in fruit){
+//  console.log(fruit[index]);
+//}
   // for of
-for (key of fruit){
-  console.log(key);
-}
-    // Method map
-onsole.log(fruit.map((e)=>e));
- return Boolean
- let result = fruit.some((e)=> e=="grape");
- console.log(result);
+//for (key of fruit){
+//  console.log(key);
+//}
+//    // Method map
+//onsole.log(fruit.map((e)=>e));
+// return Boolean
+// let result = fruit.some((e)=> e=="grape");
+// console.log(result);
 
  // method filter
-fruit.forEach((e)=>console.log(e));
+//fruit.forEach((e)=>console.log(e));
